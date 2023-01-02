@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.background{
+  background-color: #f6f9f3;
+  padding: 50px 0;
+}
+.container{
+  max-width: 90%;
+  margin:auto;
+}
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+} 
+.c-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.f-flex{
+  display: flex;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+li{
+  list-style: none;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+.Rtext{
+  text-align: right;
+} 
+.conteintWidth{
+ width: 77%;
+}
+.category{
+  width: 23%;
+  box-shadow: rgb(43 52 69 / 10%) 0 4px 16px;
+  margin-top: 5px;
+  height: 520px;
+  border-radius: 5px;
+}
+.category img {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  object-fit: contain;
+}
+.category span {
+  margin: 10px 20px;
+  text-transform: capitalize;
+}
+.category .box{
+  transition: 0.5s;
+  padding: 0 20px;
+}
+.category .box:hover{
+  background-color: #ffe1ef;
+  cursor: pointer;
+}
+
+.mtop{
+  margin-top: 40px;
+}
+
+.product{
+  background: #ffffff;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  box-shadow: rgb(3 0 71 / 9%), 0, 1px,3px;
+}
+
+.product-details .rate i{
+  font-size: 15px;
+  color: #ffcd4e;
+  margin: 5px 5px 5px 0;
+}
+
+.product .product-price{
+  display:flex;
+  justify-content: space-between;
+  color: #e94560;
+}
+
+.product-price button{
+  background : none;
+  color: #e94560;
+  font-size: 20px;
+  border:1px solid rgb(3 0 71 / 9%);
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.product-price button:hover{
+  background: #e94560;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.produect-like{
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  margin: 10px;
+  transition: 0.5s;
+}
+.produect-like label{
+  background-color:#0f3460 ;
+  padding:1px 10px ;
+  border-radius:50px ;
+  font-size: 12px;
+  color:#fff ;
+}
+.produect-like i{
+  font-size:20px;
+  margin: 10px 3px;
+} 
+
+.product:hover .produect-like{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.control-btn .next,
+.control-btn .prev{
+  position: absolute;
+  top: 40%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #0f3460;
+  transition: 0.5s;
+  z-index: 5;
+}
+
+.control-btn .next{
+  right: -20px;
+}
+
+.control-btn .prev{
+  left: -20px;
+}
+
+.control-btn .next i,
+.control-btn .prev i{
+ font-size: 20px;
+ color: #fff;
+ transition: 0.5s;
+}
+.control-btn .next:hover,
+.control-btn .prev:hover{
+  background:#e94560 ;
+  cursor: pointer;
+  border: none;
+}
+
+.discount{
+  padding: 1px 10px;
+  background: #e94560;
+  border-radius: 15px;
+  color: #fff;
+
+}
+/*-----------top Categories and New arrivals hedding--------*/
+.heading .heading-left i{
+  font-size: 30px;
+}
+.heading .heading-left h2{
+  font-size: 25px;
+  margin: 5px;
+}
+
+.heading .heading-right,
+.heading .heading-right i{
+  text-align: right;
+  color: grey;
+  
+}
+/*-----------top Categories and New arrivals hedding---------*/
+
+/*-------start----NewArrivals---------*/
+.grid{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap:10px ;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+/*-----end------NewArrivals---------*/

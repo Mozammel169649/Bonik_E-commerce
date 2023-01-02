@@ -1,0 +1,95 @@
+.item-list{
+    margin-top: 10px;
+    width: 65%;
+}
+.card-item{
+   margin-left: 30px;
+   width: 100%;
+   border-radius: 15px;
+   margin-bottom:30px;
+   background: #fff;
+}
+.card-item .img{
+   width: 150px;
+   height: 150px;
+}
+.card-item .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+.card-item .detelse{
+    width: 60%;
+}
+.detelse .title{
+    margin-top: 20px;
+ }
+ .detelse .title h2{
+    margin-bottom: 15px;
+ } 
+.detelse .title h3{
+   margin-bottom: 10px;
+}
+.detelse .title .d-flex h3{
+    color:#e94560 ;
+ }
+.card-item-function{
+    width: 15%;
+    margin: 20px;
+}
+.removeCard button{
+    color:#f6062e ;
+    margin-left:100px ;
+    border: none;
+    background: none;
+}
+.removeCard button i{
+   font-size: 25px;
+}
+.card-item-function .card-control{
+    margin-top: 50px;
+}
+.card-control button{
+   border: 2px solid rgba(0,0,0,0.1 );
+   height:25px;
+   width: 35px;
+   border-radius: 5px;
+  }
+.card-control button i{
+    font-size: 15px;
+}
+.card-control .plus{
+    background: green;
+    color: #fff;
+}
+.card-control .minus{
+    background:#f0032aef ;
+    color: #fff;
+}
+.amount{
+    width: 28%;
+    background:#fff;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}  
+.amount h2{
+    color:#e94560 ;
+    margin: 10px;
+}
+.amount .price {
+    margin-left: 15px;
+    margin-right: 15px;
+   
+}
+.amount .price h3{
+    color:#e94560 ;
+}
+.amount .price h4{
+    margin-top:0px;
+}
+.amount .d-flex{
+    display: flex;
+}
