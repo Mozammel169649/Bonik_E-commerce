@@ -2,10 +2,10 @@ import './App.css';
 import Hader from './component/hader/Hader';
 import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
 import Pages from './pages/Pages';
-import Data from './flashDeals/Data';
+import Data from "./component/flashDeals/Data";
 import { createContext, useState } from 'react';
-import Card from './card/Card';
-import Sdata from './shop/Sdata';
+import Card from './component/card/Card';
+import Sdata from './component/shop/Sdata';
 import Footer from './component/footer/Footer'
 import { useEffect } from 'react';
 import Error from './component/Error';

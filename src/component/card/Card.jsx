@@ -1,6 +1,5 @@
 import { useContext } from 'react'
-import { CategoryContext } from '../App'
-
+import { CategoryContext } from '../../App'
 import './Card.css'
 
 

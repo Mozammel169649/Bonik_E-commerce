@@ -1,6 +1,6 @@
-import { useContext } from "react";
+// import { useContext } from "react";
 import Slider from "react-slick";
-import { CategoryContext } from "../App";
+// import { CategoryContext } from "../App";
 
 
 const NextArrow = (props) => {

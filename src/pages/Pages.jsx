@@ -1,12 +1,12 @@
 import React from 'react'
-import BigDiscount from '../big/BigDiscount'
+import BigDiscount from '../component/big/BigDiscount'
 import Home from '../component/mainpage/Home'
-import Flashdeals from '../flashDeals/Flashdeals'
-import NewArrivals from '../new-arrivals/NewArrivals'
-import TopCard from '../top/TopCard'
-import Shop from '../shop/Shop'
-import Annu from '../banner/Annu'
-import Wrapper from '../wrapper/Wrapper'
+import Flashdeals from '../component/flashDeals/Flashdeals'
+import NewArrivals from '../component/new-arrivals/NewArrivals'
+import TopCard from '../component/top/TopCard'
+import Shop from '../component/shop/Shop'
+import Annu from '../component/banner/Annu'
+import Wrapper from '../component/wrapper/Wrapper'
 
 const Pages = ({productItems, addToCard,shopItems}) => {
   return (
