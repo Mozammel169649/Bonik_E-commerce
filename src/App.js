@@ -1,7 +1,7 @@
 import './App.css';
 import Hader from './component/hader/Hader';
 import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
-import Pages from './pages/Pages';
+import Pages from './component/pages/Pages';
 import Data from "./component/flashDeals/Data";
 import { createContext, useState } from 'react';
 import Card from './component/card/Card';
