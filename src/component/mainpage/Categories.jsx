@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import categoriesData from'./categoriesData'
 
-const Categories = () => {
+const Categories = ({categorieFilter}) => {
   
   return (
     <>
@@ -9,10 +10,13 @@ const Categories = () => {
       {
        categoriesData.map((value,index)=>{
         return(
-          <div className="box f-flax" key={index}>
-            <img src={value.cateImg} alt="" />
-            <span>{value.cateName}</span>
-          </div>
+          <Link to="/category"> 
+              <div className="box f-flax" key={index} onClick={(e)=>categorieFilter(e.target.innerText)}>
+                <img src={value.cateImg} alt="" />
+                <span>{value.cateName}</span>
+              </div>
+          </Link>
+          
         )
        })
        }

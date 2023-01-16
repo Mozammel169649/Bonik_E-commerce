@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Tcard from './Tcard'
 import './TopCard.css'
 
@@ -13,8 +14,10 @@ function TopCard() {
              <h2>Top Categories</h2>
            </div> 
            <div className="heading-right row">
-            <span>View all</span>
-            <i className='fa-solid fa-caret-right'></i>
+                <Link to='/viewAll'>
+                    <span>view all</span>
+                    <i className='fa-solid fa-caret-right'></i>
+                </Link>
            </div>
         </div>
            <Tcard/>

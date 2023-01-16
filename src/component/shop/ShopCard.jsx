@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './style.css'
+
 
 
 function ShopCard({shopItems,addToCard}) {
@@ -21,7 +23,9 @@ function ShopCard({shopItems,addToCard}) {
                         </div>
                     </div>
                     <div className="product-details">
-                        <h3 style={{fontSize:'16px'}}>{name}</h3>
+                        <Link to=''>
+                            <h3 style={{fontSize:'16px'}}>{name}</h3>
+                        </Link>
                         <div className="rate">
                             <i className='fa fa-star'></i>
                             <i className='fa fa-star'></i>

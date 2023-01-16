@@ -2,12 +2,12 @@ import React from 'react'
 import Categories from './Categories'
 import Slide from './Slide'
 
-const Home = () => { 
+const Home = ({categorieFilter}) => { 
   return (
     <>
       <div className="home">
         <div className="container homeTop d-flex">
-            <Categories/>
+            <Categories categorieFilter={categorieFilter}/>
             <Slide/>
         </div>
       </div>

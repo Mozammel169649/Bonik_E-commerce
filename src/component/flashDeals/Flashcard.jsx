@@ -88,7 +88,7 @@ function Flashcard(props) {
                             <i className='fa fa-star'></i>
                         </div>
                         <div className="product-price">
-                            <h4>{price}.00</h4>
+                            <h4>${price}.00</h4>
                             <button onClick={()=>addToCard(pd)}>
                                 <i className='fa fa-plus'></i>
                             </button>

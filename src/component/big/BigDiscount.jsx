@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import DisCard from './DisCard'
 
 function BigDiscount() {
@@ -12,8 +13,10 @@ function BigDiscount() {
                   <h2>Big Discount</h2>
                 </div>
                 <div className="heading-right">
-                    <span>View all</span>
-                    <i className='fa-solid fa-caret-right'> </i>
+                    <Link to='/viewAll'>
+                        <span>view all</span>
+                        <i className='fa-solid fa-caret-right'></i>
+                    </Link>
                 </div>
             </div>
             <DisCard/>

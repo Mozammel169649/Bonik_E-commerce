@@ -1,7 +1,13 @@
-import React from "react"
+
+
+import { Link } from "react-router-dom"
 import './style.css'
 
-const Catg = () => {
+
+const Catg = ({brandFilter}) => {
+
+  
+ 
   const data = [
     {
       cateImg: "./images/category/cat-1.png",
@@ -37,14 +43,18 @@ const Catg = () => {
         </div>
         {data.map((value, index) => {
           return (
-            <div className='box f-flex' key={index}>
-              <img src={value.cateImg} alt='' />
-              <span>{value.cateName}</span>
-            </div>
+             <Link to='/filter'>
+                <div className='box f-flex' key={index} onClick={(e)=>brandFilter(e.target.innerText)}>
+                  <img src={value.cateImg} alt='' />
+                  <span>{value.cateName}</span>
+                </div>
+             </Link>
           )
         })}
         <div className='box box2'>
-          <button>View All Brands</button>
+            <Link to="/mobile">
+                <button >View All Brands</button>     
+            </Link>
         </div>
       </div>
     </>

@@ -1,15 +1,15 @@
 const categoriesData =[
     {
-      cateImg:'/images/category/cat1.png',
-      cateName:'Fashion',
-    },
-    {
       cateImg: "./images/category/cat2.png",
-      cateName: "Electronic",
+      cateName:'Laptop',
     },
     {
-      cateImg: "./images/category/cat3.png",
-      cateName: "Cars",
+      cateImg: "./images/category/cat6.png",
+      cateName: "Camera",
+    },
+    {
+      cateImg: "./images/category/cat11.png",
+      cateName: "Android",
     },
     {
       cateImg: "./images/category/cat4.png",

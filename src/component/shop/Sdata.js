@@ -6,6 +6,11 @@ const Sdata = {
       name: "Mapple Earphones",
       price: "180",
       discount: "25",
+
+      // key: "B002RL8IYK",
+      // name: "3M Gold Privacy Filter for 17\" Widescreen Laptop (16:10) (GF170W1B)",
+      // stock: 36,
+      // seller: "3M",
     },
     {
       id: 8,

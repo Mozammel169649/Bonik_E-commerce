@@ -1,0 +1,19 @@
+.gride-view{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    justify-content: space-between;
+};
+
+@media only screen and (max-width:768px) {
+    .gride-view{
+        grid-template-columns: repeat(2, 1fr); 
+    };
+    
+}
+
+@media only screen and (max-width:576px) {
+    .gride-view{
+        grid-template-columns: repeat(1, 1fr); 
+    };
+    
+}

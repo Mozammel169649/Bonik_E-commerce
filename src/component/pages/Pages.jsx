@@ -8,15 +8,15 @@ import Shop from '../shop/Shop'
 import Annu from '../banner/Annu'
 import Wrapper from '../wrapper/Wrapper'
 
-const Pages = ({productItems, addToCard,shopItems}) => {
+const  Pages = ({productItems, addToCard,shopItems,brandFilter,categorieFilter}) => {
   return (
     <>
-      <Home/>
+      <Home categorieFilter={categorieFilter}/>
       <Flashdeals productItems={productItems} addToCard={addToCard}/>
       <TopCard/>
       <NewArrivals/>
       <BigDiscount/>
-      <Shop shopItems={shopItems} addToCard={addToCard}/>
+      <Shop shopItems={shopItems} addToCard={addToCard} brandFilter={brandFilter}/>
       <Annu/>
       <Wrapper/>
     </>

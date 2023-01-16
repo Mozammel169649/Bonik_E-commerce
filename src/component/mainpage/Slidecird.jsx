@@ -3,6 +3,7 @@ import Sdata from './Sdata'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import './Home.css'
+import { Link } from "react-router-dom";
 
 const Slidecird = () => {
     const settings = {
@@ -29,7 +30,9 @@ const Slidecird = () => {
                         <div className="left">
                           <h2>{value.title}</h2>
                           <p>{value.desc}</p>
-                          <button className='btn-primary'>Visid Collections</button>
+                          <Link to='/viewAll'>
+                             <button className='btn-primary'>Visid Collections</button>
+                         </Link>
                         </div>
                         <div className="right">
                           <img src={value.cover} alt="" />
